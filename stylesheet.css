@@ -1,1 +1,155 @@
 
+body {
+  /* Add styles here! */
+
+  height: 100vh;
+  background: linear-gradient(to right,#f4bed9 40%, #f7f7f7 60%);
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+.vertical-box {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 0;
+  text-align: center;
+  font-family: cursive;
+}
+.button {
+  background-color: #e5c2c2;
+  width: 80px;
+  height: 40px;
+}
+.container4{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  bottom:0;
+  left:0;
+   padding: 0px;
+}
+.container3{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:540px;
+  left:0;
+  padding: 0px;
+}
+.container2{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:500px;
+  left:2;
+  padding: 0px;
+}
+.check{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:250px;
+  left:300px;
+  padding: 0px;
+}
+
+.check1{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:200px;
+  left:300px;
+  padding: 0px;
+}
+.check2{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:150px;
+  left:300px;
+  padding: 0px;
+}
+.check3{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:500px;
+  left:1100px;
+  padding: 0px;
+}
+
+.check4{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:450px;
+  left:1100px;
+  padding: 0px;
+}
+.check5{
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:400px;
+  left:1100px;
+  padding: 0px;
+}
+.maquillaje {
+   display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:505px;
+  left:975px;
+  padding: 0px;
+}
+.pestanas {
+   display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:400px;
+  left:915px;
+  padding: 0px;
+}
+.unas {
+   display: flex;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  top:450px;
+  left:915px;
+  padding: 0px;
+}
+.cell{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position: absolute;
+  bottom:0;
+  left:400px;
+   padding: 0px;
+}
+a:link, a:visited {
+  background-color: #e8c5db;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  gap: 2px;
+  position: absolute;
+  top:0;
+  left:1000px;
+}
