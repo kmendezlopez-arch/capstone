@@ -1,155 +1,97 @@
 
 body {
-  /* Add styles here! */
-
-  height: 100vh;
-  background: linear-gradient(to right,#f4bed9 40%, #f7f7f7 60%);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=8d4eb19138&attid=0.1&permmsgid=msg-a:r-4457244748169461487&th=19df376c0c8198e3&view=fimg&fur=ip&permmsgid=msg-a:r-4457244748169461487&sz=s0-l75-ft&attbid=ANGjdJ8Xs-p6r8M5wkWZ7O-YaSTDcajAllqF8PsOzg2Z4ML0GbNEHnPEYowuoLc0H72KwaaKWKc1YNKYgZdclCC0eaA9Ul0IHH7zXRJYBnk9v7by-7NeShzmas_a_wM&disp=emb&realattid=ii_morb4qwz0&zw');
+  background-repeat: no-repeat;
+  background-size: 1370px 650px;
   
 }
-.container{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-}
-.vertical-box {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+* {
   margin: 0;
-  text-align: center;
-  font-family: cursive;
-}
-.button {
-  background-color: #e5c2c2;
-  width: 80px;
-  height: 40px;
-}
-.container4{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  bottom:0;
-  left:0;
-   padding: 0px;
-}
-.container3{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:540px;
-  left:0;
-  padding: 0px;
-}
-.container2{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:500px;
-  left:2;
-  padding: 0px;
-}
-.check{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:250px;
-  left:300px;
-  padding: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-.check1{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:200px;
-  left:300px;
-  padding: 0px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.check2{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:150px;
-  left:300px;
-  padding: 0px;
+.content {
+  min-height: 80px;
+  background: #f5dbf1;
 }
-.check3{
+.menu {
+  position: absolute;
+  top:10px;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:500px;
-  left:1100px;
-  padding: 0px;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 25px;
+  color: #f495a5;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: white;
+  display: block;
+  font-weight: bold;
+}
+.menu .navbar ul li a:hover {
+  color: #ea71e0;
+}
+#menu {
+  display: none;
+}
+.menu-icono {
+  width: 30px;
+}
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+@media(max-width:991px) {
+  .content {
+     min-height: 70px;
+  }
+  body {
+      background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=8d4eb19138&attid=0.1&permmsgid=msg-a:r-4457244748169461487&th=19df376c0c8198e3&view=fimg&fur=ip&permmsgid=msg-a:r-4457244748169461487&sz=s0-l75-ft&attbid=ANGjdJ8Xs-p6r8M5wkWZ7O-YaSTDcajAllqF8PsOzg2Z4ML0GbNEHnPEYowuoLc0H72KwaaKWKc1YNKYgZdclCC0eaA9Ul0IHH7zXRJYBnk9v7by-7NeShzmas_a_wM&disp=emb&realattid=ii_morb4qwz0&zw');
+  background-repeat: no-repeat;
+    background-size: 672px 520px;
+ 
+  }
+  .menu {
+    top:0;
+    padding: 20px;
+  }
+  .menu label {
+    display: initial;
+  }
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #e1ade1;
+    display: none;
+  }
+  .menu .navbar ul li {
+    width: 100%;
+  }
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
 }
 
-.check4{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:450px;
-  left:1100px;
-  padding: 0px;
-}
-.check5{
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:400px;
-  left:1100px;
-  padding: 0px;
-}
-.maquillaje {
-   display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:505px;
-  left:975px;
-  padding: 0px;
-}
-.pestanas {
-   display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:400px;
-  left:915px;
-  padding: 0px;
-}
-.unas {
-   display: flex;
-  align-items: center;
-  gap: 0px;
-  position: absolute;
-  top:450px;
-  left:915px;
-  padding: 0px;
-}
-.cell{
-  display: flex;
-  align-items: center;
-  gap: 2px;
-  position: absolute;
-  bottom:0;
-  left:400px;
-   padding: 0px;
-}
-a:link, a:visited {
-  background-color: #e8c5db;
-  padding: 14px 25px;
-  text-align: center;
-  display: inline-block;
-  display: flex;
-  gap: 2px;
-  position: absolute;
-  top:0;
-  left:1000px;
-}
+  
