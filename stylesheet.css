@@ -353,24 +353,32 @@ form button{
    position: absolute;
    top:1700px;
   left:15px;
+ 
 }
 .insta {
    position: absolute;
    top:1700px;
   left:399px;
+  
 }
 
 .cell {
    position: absolute;
    top:1710px;
   left:700px;
+ 
 }
 .casa {
    position: absolute;
    top:1710px;
   left:999px;
+  margin: 10px;
 }
-
+.h3index{
+   overflow-wrap: break-word;
+  white-space: normal;
+ 
+}
 .bookbody {
   background-color: white;
    background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=8d4eb19138&attid=0.1&permmsgid=msg-a:r-2123415352874657948&th=19df48e40667427b&view=fimg&fur=ip&permmsgid=msg-a:r-2123415352874657948&sz=s0-l75-ft&attbid=ANGjdJ922YIQQaZnrxcuPgvlt6EWvFcbLco6RY-h64v54VvJJP3vQTym8rMMn2qIzzMeJIiQlQXWjOHGJnLh5-H0Bpny9QYuwDWTKkbHEICrGSl7OACZbZa-6HNbFSE&disp=emb&realattid=ii_mormbctl0&zw');
@@ -478,6 +486,10 @@ form button{
   display: none;
 }
 @media(max-width:768px) {
+  .menu {
+     top:0;
+    padding: 20px;
+  }
   .content {
      min-height: 70px;
   }
@@ -486,6 +498,10 @@ form button{
    top:3289px;
   left:440px;
 }
+  .h3index {
+    padding: 10px;
+   
+  }
 .casa {
    position: absolute;
    top:3289px;
@@ -535,7 +551,7 @@ form button{
 .containerfade {
   position: relative;
  width: 10%;
-  top:460px;
+  top:470px;
   left:125px;
 }
 
@@ -581,8 +597,8 @@ form button{
 }
 .booknn {
    position:absolute;
-  bottom: 20px;  
-  left: 220px;
+  bottom: 40px;  
+  left: 270px;
    background-color: #f9b9e8; 
   border: none;
   color: white;
@@ -596,10 +612,7 @@ form button{
   border-radius: 50%;
 }
   
-  .menu {
-    top:0;
-    padding: 20px;
-  }
+  
   .menu label {
     display: initial;
   }
@@ -633,6 +646,7 @@ form button{
   width: 564px;
   height: 320px;
   perspective: 1000px;
+ 
 }
 .flip-card-inner {
   position: relative;
@@ -662,7 +676,7 @@ form button{
 }
 
 .flip-card-back {
-  background-color: #eec9e7;
+  background-color: #f9cdf1;
   color: #1f1f1f;
   transform: rotateY(180deg);
 }
@@ -675,21 +689,25 @@ form button{
   font-family:cursive;font-size: 22px;
   font-style: italic;
   padding: 10px;
+  background: #ebd5eb;
+ 
 }
+
 .tres {
   font-family:"Audiowide";font-size: 22px;
   padding: 10px;
   font-style: oblique;
-  
+   background: #e6d6e6;
 }
   .cuatro {
   font-family:'Amita';font-size: 22px;
   padding: 10px;
-  
+   background: #d2bcd2;
 }
   .cinco {
   font-family:'Annie Use Your Telescope';font-size: 22px;
   padding: 10px;
+     background: #cbb3cb;
 }
 
 #more {display: none;}
